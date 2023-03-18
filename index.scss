@@ -96,7 +96,7 @@ a {
 
 .lang-mobile {
   position: absolute;
-  bottom: 70px;
+  bottom: 120px;
   right: -25px;
   transform: rotate(90deg);
   color: $black;
@@ -263,6 +263,11 @@ a {
     line-height: 22px;
     color: $black;
   }
+  h2 {
+    font-family: $bold-font;
+    font-size: 34px;
+    line-height: 42px;
+  }
 }
 
 .about-text {
@@ -293,6 +298,9 @@ a {
     line-height: 42px;
     text-align: center;
     margin-bottom: 69px;
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 50px;
+    }
   }
   padding: 0 250px 110px;
   @media screen and (max-width: 1024px) {
@@ -306,6 +314,9 @@ a {
   line-height: 22px;
   text-align: center;
   margin-bottom: 83px;
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 70px;
+  }
 }
 
 .skills-flex {

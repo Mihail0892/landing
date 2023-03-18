@@ -90,7 +90,7 @@ a {
 
 .lang-mobile {
   position: absolute;
-  bottom: 70px;
+  bottom: 120px;
   right: -25px;
   transform: rotate(90deg);
   color: black;
@@ -264,6 +264,11 @@ a {
   line-height: 22px;
   color: black;
 }
+.about h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+}
 
 .about-text {
   height: 218px;
@@ -299,6 +304,11 @@ a {
   margin-bottom: 69px;
 }
 @media screen and (max-width: 1024px) {
+  .skills h2 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
   .skills {
     padding: 0 30px 110px;
   }
@@ -310,6 +320,11 @@ a {
   line-height: 22px;
   text-align: center;
   margin-bottom: 83px;
+}
+@media screen and (max-width: 1024px) {
+  .article-text {
+    margin-bottom: 70px;
+  }
 }
 
 .skills-flex {
